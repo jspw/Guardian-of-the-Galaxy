@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\jacksparrow\documents\programming test\project\visual studios project\guardians of the galaxy\ga\ga\main.cpp(28): error C2039: 'draw': is not a member of 'sf::Window'
+  c:\users\jacksparrow\documents\programming test\project\visual studios project\guardians of the galaxy\ga\include\sfml\graphics\texture.hpp(42): note: see declaration of 'sf::Window'
