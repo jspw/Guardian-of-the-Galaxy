@@ -1,0 +1,134 @@
+﻿  main.cpp
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(122): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(142): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(161): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(169): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(214): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(215): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(216): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(217): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(294): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(392): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(407): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(411): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(414): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(417): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(435): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(532): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(537): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(542): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\jacksparrow\documents\programming test\project\visual studios project\new folder\consoleapplication1\consoleapplication1\main.cpp(547): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  ConsoleApplication1.vcxproj -> C:\Users\JackSparrow\Documents\programming test\Project\Visual Studios Project\New folder\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
