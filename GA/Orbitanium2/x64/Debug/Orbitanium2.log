@@ -1,8 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (GOTG.vcxproj, Orbitanium2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  main.cpp
-  main.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
-LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
-  Generating code
-c:\users\jacksparrow\documents\programming test\project\visual studios project\guardians of the galaxy\gotg\orbitanium2\componentcontainer.h(194): warning C4715: 'FindGameObjectWithTag': not all control paths return a value
-  Finished generating code
-  Orbitanium2.vcxproj -> C:\Users\JackSparrow\Documents\programming test\Project\Visual Studios Project\Guardians of the Galaxy\GOTG\x64\Debug\GA.exe
