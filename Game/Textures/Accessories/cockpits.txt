@@ -1,0 +1,16 @@
+Textures/Accessories/cpit01.png
+Textures/Accessories/cpit02.png
+Textures/Accessories/cpit03.png
+Textures/Accessories/cpit04.png
+Textures/Accessories/cpit05.png
+Textures/Accessories/cpit06.png
+Textures/Accessories/cpit07.png
+Textures/Accessories/cpit08.png
+Textures/Accessories/cpit09.png
+Textures/Accessories/cpit10.png
+Textures/Accessories/cpit11.png
+Textures/Accessories/cpit12.png
+Textures/Accessories/cpit13.png
+Textures/Accessories/cpit14.png
+Textures/Accessories/cpit15.png
+Textures/Accessories/cpit16.png
