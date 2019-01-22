@@ -30,6 +30,8 @@ private:
 	Sprite sprite;
 	RectangleShape hitBox;
 
+	
+
 	//Accessories
 	Sprite mainGunSprite;
 	dArr<Bullet> bullets;

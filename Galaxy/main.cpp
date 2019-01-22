@@ -9,6 +9,8 @@ int main()
 {
 	srand(time(NULL));
 
+	bool m = true;
+
 	RenderWindow window(VideoMode(1370, 800), "Gaurdians Of The Galaxy", Style::Default);
 
 	Clock clock;
@@ -18,21 +20,9 @@ int main()
 	GameMapMaker gameMapMaker(&window);
 
 	//Song
-	sf::SoundBuffer buffer;
-	// load something into the sound buffer...
-	buffer.loadFromFile("music.wav");
-	sf::Sound sound;
-	sound.setBuffer(buffer);
-	sound.play();
-
-	//fireSound
-	sf::SoundBuffer buffer2;
-	// load something into the sound buffer...
-	buffer2.loadFromFile("Sounds/fire.wav");
-	sf::Sound fireSound;
-	fireSound.setBuffer(buffer2);
-	
-
+	Music music;
+	music.openFromFile("Sounds/music.wav");
+	music.play();
 
 
 	//Game loop
@@ -46,9 +36,14 @@ int main()
 			if (event.type == Event::KeyPressed && event.key.code == Keyboard::Escape)
 				window.close();		
 		}
+		
+		
+
 
 		dt = clock.restart().asSeconds();
-		sound.play();
+		
+		if (music.Stopped)
+			music.play();
 
 		if (MAPMAKER)
 		{

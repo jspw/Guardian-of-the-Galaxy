@@ -282,21 +282,6 @@ bool Stage::loadStage(std::string fileName, View &view)
 		this->background.setTextureRect(IntRect(0, 0, bgWidth, bgHeight));
 		this->background.setTexture(&Stage::backgroundTextures[bgIndex]);
 		this->backgrounds.add(background);
-
-		////Clear old stage
-		//this->tiles.resizeClear(this->stageSizeX);
-		//this->backgroundTiles.resizeClear(this->stageSizeX);
-		//this->enemySpawners.resizeClear(this->stageSizeX);
-		//
-		//for (size_t i = 0; i < this->stageSizeX; i++)
-		//{
-		//	this->tiles.push(TileArr<Tile>(stageSizeY), i);
-		//	this->backgroundTiles.push(TileArr<Tile>(stageSizeY), i);
-		//	this->enemySpawners.push(TileArr<EnemySpawner>(stageSizeY), i);
-		//}
-
-		//line.clear();
-		//ss.clear();
 		
 
 		//Enemy Spawners

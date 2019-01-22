@@ -23,6 +23,7 @@ private:
 	float keyTime;
 	bool fullscreen;
 	int mode;
+	bool Mplayer;
 	
 	//Score
 	unsigned score;

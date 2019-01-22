@@ -226,18 +226,22 @@ void Game::initialize()
 	//	Keyboard::Numpad3,
 	//	Keyboard::Numpad0));
 
-	//this->players.add(Player(
-	//	Keyboard::I,
-	//	Keyboard::K,
-	//	Keyboard::J,
-	//	Keyboard::L,
-	//	Keyboard::RAlt,
-	//	Keyboard::Period,
-	//	Keyboard::Comma,
-	//	Keyboard::Num8,
-	//	Keyboard::Num9,
-	//	Keyboard::Num0,
-	//	Keyboard::Add));
+
+	this->Mplayer = true;
+	if (Mplayer) {
+		this->players.add(Player(
+			Keyboard::I,
+			Keyboard::K,
+			Keyboard::J,
+			Keyboard::L,
+			Keyboard::RAlt,
+			Keyboard::Period,
+			Keyboard::Comma,
+			Keyboard::Num8,
+			Keyboard::Num9,
+			Keyboard::Num0,
+			Keyboard::Add));
+	}
 
 	this->playersAlive = this->players.size();
 

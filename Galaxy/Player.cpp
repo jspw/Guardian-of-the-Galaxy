@@ -10,12 +10,7 @@ dArr<Texture> Player::rWingTextures;
 dArr<Texture> Player::cPitTextures;
 dArr<Texture> Player::auraTextures;
 
-////sound effetc 
-//
-//SoundBuffer bf;
-//bf.loadFromFile("fire.wav");
-//Sound fire;
-//fire.setBuffer(bf);
+
 
 void Player::initTextures()
 {
@@ -32,6 +27,8 @@ void Player::initTextures()
 	Player::mainGunTextures.add(Texture(temp));
 	temp.loadFromFile("Textures/Guns/gun03.png");
 	Player::mainGunTextures.add(Texture(temp));
+
+	
 
 	//Player shields
 	temp.loadFromFile("Textures/Player/shield.png");
@@ -111,7 +108,7 @@ Player::Player(
 	int CHANGE_AURA)
 
 	:level(1), exp(0),
-	hp(1000), hpMax(1000),hpAdded(1000),
+	hp(1000), hpMax(1000),hpAdded(100),
 	statPoints(20), cooling(0), 
 	plating(0), wiring(0), power(0),
 	damage(1), damageMax(2),
@@ -607,8 +604,9 @@ void Player::combat(const float &dt)
 	if (Keyboard::isKeyPressed(Keyboard::Key(this->controls[controls::SHOOT]))
 		&& this->shootTimer >= this->shootTimerMax)
 	{
-	
-//		fireSound.play();
+		Music fireSound;
+		fireSound.openFromFile("Sounds/fire.wav");
+		fireSound.play();
 		if (this->currentWeapon == Player::LASER_NORMAL)
 		{
 			//Create bullet
